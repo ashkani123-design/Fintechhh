@@ -1,0 +1,83 @@
+{
+  "project": {
+    "id": "PROJ-FINTECH-IRAN-01",
+    "titleFa": "اعتبارسنجی متاسنتز سرمایه‌گذاری الگوریتمی و تدوین چارچوب ایده‌آل فین‌تک در ایران",
+    "titleEn": "Meta-Synthesis Validation and Ideal Algorithmic Investment & Robo-Advisory Architecture for Iran",
+    "frameworkVersion": "v1.0 (فراتحلیل ۲۸ مقاله بین‌المللی)",
+    "protocolDescription": "پروتکل ترکیبی دو فازه: اعتبارسنجی تئوریک (فاز ۱) و ساختاربندی بومی ایران با دیمتل، ANP و دلفی فازی (فاز ۲)",
+    "methodologySettings": {
+      "fuzzyDelphiThreshold": 0.65,
+      "fuzzyDelphiDefuzzMethod": "graded_mean",
+      "dematelThresholdAlpha": "mean",
+      "dematelAggregation": "mean",
+      "consensusAgreementThreshold": 70,
+      "minExpertQuorum": 15,
+      "allowSecondRound": true,
+      "requireVoiceConsent": true,
+      "enablePseudonymousOutput": true
+    }
+  },
+  "session": {
+    "id": "SESS-2026-PANEL-01",
+    "projectId": "PROJ-FINTECH-IRAN-01",
+    "title": "نشست رسمی پانل نخبگان سرمایه‌گذاری الگوریتمی و روبوادوایزری (۱۵ الی ۲۰ خبره)",
+    "status": "active",
+    "currentStage": "intro",
+    "currentRound": 1,
+    "isAggregateVisibleToExperts": false,
+    "activeScreenLock": false,
+    "targetItemIndex": 0,
+    "createdAt": "2026-10-25T15:06:51.172Z",
+    "updatedAt": "2026-10-25T15:06:51.172Z",
+    "moderatorLogs": [
+      {
+        "id": "MOD-01",
+        "timestamp": "2026-10-25T15:06:51.172Z",
+        "author": "دکتر علوی (مدیر جلسه)",
+        "type": "note",
+        "topic": "افتتاح نشست",
+        "content": "نشست رسمی با حضور اساتید مهندسی مالی، مدیران سبدگردان و متخصصان رگ‌تک رسماً آغاز شد. پروتکل دو فاز مستقل برای خبرگان تبیین گردید."
+      }
+    ],
+    "frameworkDecisions": [],
+    "auditTrail": [
+      {
+        "id": "AUD-01",
+        "timestamp": "2026-10-25T15:06:51.173Z",
+        "actor": "سیستم",
+        "action": "راه‌اندازی پروژه",
+        "details": "پایگاه داده پروژه و نشست شماره ۱ با موفقیت مقداردهی اولیه شد."
+      }
+    ]
+  },
+  "experts": [
+    {
+      "id": "EXP-001",
+      "token": "test-expert",
+      "name": "تست",
+      "organization": "",
+      "position": "",
+      "academicDegree": "",
+      "yearsExperience": "",
+      "isPseudonymous": false,
+      "status": "in_progress",
+      "joinedAt": "2026-10-25T15:06:57.402Z",
+      "lastActive": "2026-10-25T15:06:57.402Z"
+    }
+  ],
+  "submissions": {
+    "EXP-001": {
+      "expertId": "EXP-001",
+      "round": 1,
+      "metadata": {
+        "expertName": "تست"
+      },
+      "answers": {},
+      "dematelMatrix": [],
+      "anpPriorities": {},
+      "iranCriteriaRatings": {},
+      "submittedAt": "2026-10-25T15:06:57.402Z",
+      "lastSavedAt": "2026-10-25T15:06:57.402Z"
+    }
+  }
+}
