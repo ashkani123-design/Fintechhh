@@ -1,0 +1,9 @@
+{
+  "platform": "node",
+  "app": "fintech-expert-panel",
+  "port": 3000,
+  "build": {
+    "command": "npm run build"
+  },
+  "start": "node server.ts"
+}
